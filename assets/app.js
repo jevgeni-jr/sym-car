@@ -11,10 +11,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './js/components/App';
 
-console.log('Running!');
-
 const root = document.getElementById('root');
 if (root) {
     createRoot(root).render(<App />);
-    console.log('React is running!');
 }

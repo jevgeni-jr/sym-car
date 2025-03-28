@@ -83,9 +83,6 @@ class __TwigTemplate_04109cc36a1920da91f5287816935110 extends Template
 
         // line 6
         yield "    <div id=\"root\"></div>
-       <script>
-    console.log(\"Inline script after app.js is executed\");
-</script>
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -125,9 +122,6 @@ class __TwigTemplate_04109cc36a1920da91f5287816935110 extends Template
 
 {% block body %}
     <div id=\"root\"></div>
-       <script>
-    console.log(\"Inline script after app.js is executed\");
-</script>
 {% endblock %}
 
 ", "home/home.html.twig", "/home/jevgeni/projects/sym-car/templates/home/home.html.twig");

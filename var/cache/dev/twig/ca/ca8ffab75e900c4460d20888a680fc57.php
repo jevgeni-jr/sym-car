@@ -50,31 +50,32 @@ class __TwigTemplate_4825c27299316101e1381ba49d27c789 extends Template
 <html>
     <head>
         <meta charset=\"UTF-8\">
+        <meta name=\"viewport\" content=\"initial-scale=1, width=device-width\" />
         <title>";
-        // line 5
+        // line 6
         yield from $this->unwrap()->yieldBlock('title', $context, $blocks);
         yield "</title>
         <link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>\">
         ";
-        // line 7
+        // line 8
         yield from $this->unwrap()->yieldBlock('stylesheets', $context, $blocks);
-        // line 9
+        // line 10
         yield "
         <script src=\"";
-        // line 10
+        // line 11
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/app.js"), "html", null, true);
         yield "\" defer></script>
         
         ";
-        // line 12
+        // line 13
         yield from $this->unwrap()->yieldBlock('javascripts', $context, $blocks);
-        // line 14
+        // line 15
         yield "    </head>
     <body>
         ";
-        // line 16
+        // line 17
         yield from $this->unwrap()->yieldBlock('body', $context, $blocks);
-        // line 18
+        // line 19
         yield "    </body>
 
  
@@ -86,7 +87,7 @@ class __TwigTemplate_4825c27299316101e1381ba49d27c789 extends Template
         yield from [];
     }
 
-    // line 5
+    // line 6
     /**
      * @return iterable<null|scalar|\Stringable>
      */
@@ -103,7 +104,7 @@ class __TwigTemplate_4825c27299316101e1381ba49d27c789 extends Template
         yield from [];
     }
 
-    // line 7
+    // line 8
     /**
      * @return iterable<null|scalar|\Stringable>
      */
@@ -113,7 +114,7 @@ class __TwigTemplate_4825c27299316101e1381ba49d27c789 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        // line 8
+        // line 9
         yield "        ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -121,7 +122,7 @@ class __TwigTemplate_4825c27299316101e1381ba49d27c789 extends Template
         yield from [];
     }
 
-    // line 12
+    // line 13
     /**
      * @return iterable<null|scalar|\Stringable>
      */
@@ -131,7 +132,7 @@ class __TwigTemplate_4825c27299316101e1381ba49d27c789 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 13
+        // line 14
         yield "        ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -139,7 +140,7 @@ class __TwigTemplate_4825c27299316101e1381ba49d27c789 extends Template
         yield from [];
     }
 
-    // line 16
+    // line 17
     /**
      * @return iterable<null|scalar|\Stringable>
      */
@@ -149,7 +150,7 @@ class __TwigTemplate_4825c27299316101e1381ba49d27c789 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 17
+        // line 18
         yield "        ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -178,7 +179,7 @@ class __TwigTemplate_4825c27299316101e1381ba49d27c789 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  153 => 17,  143 => 16,  135 => 13,  125 => 12,  117 => 8,  107 => 7,  90 => 5,  78 => 18,  76 => 16,  72 => 14,  70 => 12,  65 => 10,  62 => 9,  60 => 7,  55 => 5,  49 => 1,);
+        return array (  154 => 18,  144 => 17,  136 => 14,  126 => 13,  118 => 9,  108 => 8,  91 => 6,  79 => 19,  77 => 17,  73 => 15,  71 => 13,  66 => 11,  63 => 10,  61 => 8,  56 => 6,  49 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -187,6 +188,7 @@ class __TwigTemplate_4825c27299316101e1381ba49d27c789 extends Template
 <html>
     <head>
         <meta charset=\"UTF-8\">
+        <meta name=\"viewport\" content=\"initial-scale=1, width=device-width\" />
         <title>{% block title %}Welcome!{% endblock %}</title>
         <link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>\">
         {% block stylesheets %}
